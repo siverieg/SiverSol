@@ -1,0 +1,35 @@
+{
+  "_about": "Non-secret defaults. Webhook URLs and the private server link live in Config/secrets.local.json (gitignored), keyed by route name.",
+  "notify": {
+    "liveCardRoute": "test",
+    "liveCardIntervalS": 60,
+    "routes": [
+      {
+        "name": "test",
+        "profile": "rich",
+        "enabled": true,
+        "events": [
+          "biome",
+          "aura",
+          "merchant",
+          "incident",
+          "status",
+          "newBiome",
+          "liveCard",
+          "daily",
+          "macros"
+        ],
+        "includeNormal": true,
+        "endedMessages": true,
+        "sessionThreads": false,
+        "pingsEnabled": false,
+        "pings": {
+          "GLITCHED": "everyone",
+          "DREAMSPACE": "everyone",
+          "CYBERSPACE": "everyone",
+          "SINGULARITY": "everyone"
+        }
+      }
+    ]
+  }
+}

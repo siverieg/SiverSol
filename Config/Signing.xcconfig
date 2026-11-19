@@ -1,0 +1,14 @@
+// Signing for the SiverSol app target.
+//
+// Default (what is committed): ad-hoc signing, so anyone can build without an Apple developer account.
+// With an ad-hoc signature macOS ties the Screen Recording and Accessibility grants to that exact build,
+// so you allow them again after each rebuild.
+CODE_SIGN_STYLE = Manual
+CODE_SIGN_IDENTITY = -
+DEVELOPMENT_TEAM =
+
+// For a stable signature (grants survive rebuilds), create Config/Signing.local.xcconfig (gitignored) with:
+//   CODE_SIGN_STYLE = Automatic
+//   CODE_SIGN_IDENTITY = Apple Development
+//   DEVELOPMENT_TEAM = <your 10-character team id>
+#include? "Signing.local.xcconfig"

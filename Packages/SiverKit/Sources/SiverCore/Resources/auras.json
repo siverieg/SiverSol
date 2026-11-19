@@ -1,0 +1,3175 @@
+{
+ "_about": "Aura catalog for SiverSol. Keys are aura names reduced to lowercase letters and digits, so the game's internal name (SeekerOfTheCrimsonMoon) and the display name (Seeker of the Crimson Moon) meet. chance = 1 in N. nativeChance / nativeBiome = the easier odds inside the aura's own biome.",
+ "_source": "Sol's RNG Wiki, https://sol-rng.fandom.com/wiki/Auras, licensed CC BY-SA 3.0. Regenerate with Tools/build_auras.py.",
+ "_generated": "2026-11-18",
+ "auras": {
+  "abominable": {
+   "display": "Abominable",
+   "tier": "Event",
+   "chance": 120000000,
+   "nativeChance": 40000000,
+   "nativeBiome": "SNOWY",
+   "note": "Winter 2025"
+  },
+  "abomination": {
+   "display": "Abomination",
+   "tier": "Unobtainable",
+   "note": "[Dev-Exclusive]"
+  },
+  "abyssalhunter": {
+   "display": "Abyssal Hunter",
+   "tier": "Glorious",
+   "chance": 400000000,
+   "nativeChance": 100000000,
+   "nativeBiome": "RAINY"
+  },
+  "abyssalhunterawakened": {
+   "display": "Abyssal Hunter : Awakened",
+   "tier": "Transcendent",
+   "note": "Transcendent"
+  },
+  "accursed": {
+   "display": "Accursed",
+   "tier": "Event",
+   "chance": 82000000,
+   "onlyIn": "BLOOD RAIN",
+   "note": "Halloween 2025"
+  },
+  "acropolis": {
+   "display": "Acropolis",
+   "tier": "Event",
+   "note": "Halloween 2026"
+  },
+  "aegis": {
+   "display": "Aegis",
+   "tier": "Glorious",
+   "chance": 825000000,
+   "nativeChance": 412500000,
+   "nativeBiome": "CYBERSPACE"
+  },
+  "aegiswatergun": {
+   "display": "Aegis : Watergun",
+   "tier": "Event",
+   "chance": 825000000,
+   "nativeChance": 412500000,
+   "nativeBiome": "BLAZING SUN",
+   "note": "Summer 2025"
+  },
+  "aeroquest": {
+   "display": "Aeroquest",
+   "tier": "Event",
+   "note": "Easter 2026"
+  },
+  "aether": {
+   "display": "Aether",
+   "tier": "Legendary",
+   "chance": 180000
+  },
+  "aetherdisappointment": {
+   "display": "Aether : Disappointment",
+   "tier": "Event",
+   "chance": 33333330,
+   "nativeChance": 6666666,
+   "nativeBiome": "HEAVEN",
+   "note": "April Fools 2026"
+  },
+  "afoolsexperience": {
+   "display": "A Fool's Experience",
+   "tier": "Event",
+   "chance": 1000000000,
+   "note": "April Fools 2026"
+  },
+  "afterparty": {
+   "display": "Afterparty",
+   "tier": "Event",
+   "chance": 440000000,
+   "onlyIn": "GRAVEYARD",
+   "note": "Halloween 2025"
+  },
+  "alchemist": {
+   "display": "Alchemist",
+   "tier": "Unobtainable",
+   "note": "[Tester Exclusive]"
+  },
+  "alohaoe": {
+   "display": "Alohaoe",
+   "tier": "Event",
+   "note": "Season VIII"
+  },
+  "amethyst": {
+   "display": "Amethyst",
+   "tier": "Mythic",
+   "chance": 9333700
+  },
+  "anima": {
+   "display": "Anima",
+   "tier": "Mythic",
+   "chance": 5730000
+  },
+  "antivirus": {
+   "display": "Antivirus",
+   "tier": "Exalted",
+   "chance": 62500000,
+   "nativeChance": 31250000,
+   "nativeBiome": "CYBERSPACE"
+  },
+  "anubis": {
+   "display": "Anubis",
+   "tier": "Mythic",
+   "chance": 7200000,
+   "nativeChance": 1800000,
+   "nativeBiome": "SANDSTORM"
+  },
+  "apatite": {
+   "display": "Apatite",
+   "tier": "Mythic",
+   "chance": 3133133
+  },
+  "apocalypse": {
+   "display": "Apocalypse",
+   "tier": "Event",
+   "chance": 624000000,
+   "onlyIn": "GRAVEYARD",
+   "note": "Halloween 2025"
+  },
+  "apostolos": {
+   "display": "Apostolos",
+   "tier": "Glorious",
+   "chance": 444000000,
+   "nativeChance": 222000000,
+   "nativeBiome": "THE CITADEL OF ORDERS"
+  },
+  "apostolosveil": {
+   "display": "Apostolos : Veil",
+   "tier": "Event",
+   "chance": 800000000,
+   "onlyIn": "PUMPKIN MOON",
+   "note": "Halloween 2024"
+  },
+  "apotheosis": {
+   "display": "Apotheosis",
+   "tier": "Exalted",
+   "chance": 24691356
+  },
+  "aquamarine": {
+   "display": "Aquamarine",
+   "tier": "Basic",
+   "chance": 900
+  },
+  "aquaria": {
+   "display": "Aquaria",
+   "tier": "Exalted",
+   "chance": 80000000,
+   "nativeChance": 20000000,
+   "nativeBiome": "RAINY"
+  },
+  "aquatic": {
+   "display": "Aquatic",
+   "tier": "Unique",
+   "chance": 40000
+  },
+  "aquaticflame": {
+   "display": "Aquatic : Flame",
+   "tier": "Mythic",
+   "chance": 4000000
+  },
+  "arachnophobia": {
+   "display": "Arachnophobia",
+   "tier": "Event",
+   "chance": 940000000,
+   "onlyIn": "PUMPKIN MOON",
+   "note": "Halloween 2025"
+  },
+  "arcane": {
+   "display": "Arcane",
+   "tier": "Mythic",
+   "chance": 1000000
+  },
+  "arcanedark": {
+   "display": "Arcane : Dark",
+   "tier": "Exalted",
+   "chance": 30000000
+  },
+  "arcanelegacy": {
+   "display": "Arcane : Legacy",
+   "tier": "Exalted",
+   "chance": 15000000
+  },
+  "archangel": {
+   "display": "Archangel",
+   "tier": "Glorious",
+   "chance": 350000000,
+   "nativeChance": 70000000,
+   "nativeBiome": "HEAVEN"
+  },
+  "archmage": {
+   "display": "Archmage",
+   "tier": "Mythic",
+   "chance": 1766000
+  },
+  "artifact": {
+   "display": "Artifact",
+   "tier": "Legendary",
+   "chance": 500000,
+   "nativeChance": 250000,
+   "nativeBiome": "LOST FOREST"
+  },
+  "ascendant": {
+   "display": "Ascendant",
+   "tier": "Glorious",
+   "chance": 935000000,
+   "nativeChance": 187000000,
+   "nativeBiome": "HEAVEN"
+  },
+  "ash": {
+   "display": "Ash",
+   "tier": "Epic",
+   "chance": 2300
+  },
+  "ashraem": {
+   "display": "Ashraem",
+   "tier": "Event",
+   "chance": 2000000000,
+   "onlyIn": "BLOOD RAIN",
+   "note": "Halloween 2026"
+  },
+  "astraios": {
+   "display": "Astraios",
+   "tier": "Challenged+",
+   "chance": 1750000000,
+   "onlyIn": "SINGULARITY"
+  },
+  "astral": {
+   "display": "Astral",
+   "tier": "Mythic",
+   "chance": 1336000,
+   "nativeChance": 267200,
+   "nativeBiome": "STARFALL"
+  },
+  "astralastrald": {
+   "display": "Astral : Astrald",
+   "tier": "Event",
+   "chance": 267000,
+   "note": "From \"Astrald Luck!\")"
+  },
+  "astrallegendarium": {
+   "display": "Astral : Legendarium",
+   "tier": "Unobtainable",
+   "chance": 267200000,
+   "nativeChance": 53440000,
+   "nativeBiome": "STARFALL",
+   "note": "[Removed]"
+  },
+  "astralzodiac": {
+   "display": "Astral : Zodiac",
+   "tier": "Glorious",
+   "chance": 267200000,
+   "nativeChance": 53440000,
+   "nativeBiome": "STARFALL"
+  },
+  "astronaut": {
+   "display": "Astronaut",
+   "tier": "Mythic",
+   "chance": 6117186,
+   "onlyIn": "SINGULARITY"
+  },
+  "atlas": {
+   "display": "Atlas",
+   "tier": "Glorious",
+   "chance": 360000000,
+   "nativeChance": 90000000,
+   "nativeBiome": "SANDSTORM"
+  },
+  "atlasatlasstatic": {
+   "display": "Atlas : A.T.L.A.S.Static",
+   "tier": "Transcendent",
+   "note": "Glorious"
+  },
+  "atlasyuletide": {
+   "display": "Atlas : Yuletide",
+   "tier": "Event",
+   "chance": 510000000,
+   "nativeChance": 170000000,
+   "nativeBiome": "SNOWY",
+   "note": "Winter 2025"
+  },
+  "atomic": {
+   "display": "Atomic",
+   "tier": "Epic",
+   "chance": 1180
+  },
+  "atomicnucleus": {
+   "display": "Atomic : Nucleus",
+   "tier": "Exalted",
+   "chance": 92118000
+  },
+  "atomicribonucleic": {
+   "display": "Atomic : Ribonucleic",
+   "tier": "Epic",
+   "chance": 9876
+  },
+  "attorney": {
+   "display": "Attorney",
+   "tier": "Event",
+   "chance": 270000,
+   "onlyIn": "THE CITADEL OF ORDERS"
+  },
+  "aura": {
+   "display": "{{Aura",
+   "tier": "Transcendent",
+   "note": "Challenged+"
+  },
+  "aviator": {
+   "display": "Aviator",
+   "tier": "Exalted",
+   "chance": 24000000,
+   "nativeChance": 8000000,
+   "nativeBiome": "WINDY"
+  },
+  "banshee": {
+   "display": "Banshee",
+   "tier": "Event",
+   "chance": 730000000,
+   "onlyIn": "GRAVEYARD",
+   "note": "Halloween 2025"
+  },
+  "bayview": {
+   "display": "Bayview",
+   "tier": "Event",
+   "chance": 60000000,
+   "onlyIn": "BLAZING SUN",
+   "note": "1/30,000,000 Summer 2026"
+  },
+  "beachball": {
+   "display": "Beach Ball",
+   "tier": "Event",
+   "chance": 1938000,
+   "onlyIn": "BLAZING SUN",
+   "note": "1/969,000 Summer 2026"
+  },
+  "bioluminescent": {
+   "display": "Bioluminescent",
+   "tier": "Event",
+   "note": "Summer 2025"
+  },
+  "bleeding": {
+   "display": "Bleeding",
+   "tier": "Epic",
+   "chance": 4444
+  },
+  "blizzard": {
+   "display": "Blizzard",
+   "tier": "Exalted",
+   "chance": 27315000,
+   "nativeChance": 9105000,
+   "nativeBiome": "SNOWY"
+  },
+  "bloatedexe": {
+   "display": "Bloated.exe",
+   "tier": "Event",
+   "chance": 67676767,
+   "note": "April Fools 2026"
+  },
+  "blooddemon": {
+   "display": "Blood Demon",
+   "tier": "Event",
+   "note": "Season V"
+  },
+  "bloodgarden": {
+   "display": "Bloodgarden",
+   "tier": "Event",
+   "chance": 88000000,
+   "onlyIn": "BLOOD RAIN",
+   "note": "Halloween 2025"
+  },
+  "bloodlust": {
+   "display": "Bloodlust",
+   "tier": "Glorious",
+   "chance": 300000000,
+   "nativeChance": 50000000,
+   "nativeBiome": "HELL"
+  },
+  "blossom": {
+   "display": "Blossom",
+   "tier": "Event",
+   "note": "Valentines 2024"
+  },
+  "blossomfrozen": {
+   "display": "Blossom : Frozen",
+   "tier": "Event",
+   "note": "Winter 2025"
+  },
+  "borealis": {
+   "display": "Borealis",
+   "tier": "Challenged",
+   "chance": 13333333,
+   "onlyIn": "DREAMSPACE"
+  },
+  "bounded": {
+   "display": "Bounded",
+   "tier": "Legendary",
+   "chance": 200000
+  },
+  "boundedaichmalotos": {
+   "display": "Bounded : Aichmalotos",
+   "tier": "Glorious",
+   "chance": 170000000
+  },
+  "boundedkidnapped": {
+   "display": "Bounded : Kidnapped",
+   "tier": "Event",
+   "chance": 2000000,
+   "note": "April Fools 2026"
+  },
+  "boundedunbound": {
+   "display": "Bounded : Unbound",
+   "tier": "Mythic",
+   "chance": 2000000
+  },
+  "breakthrough": {
+   "display": "Breakthrough",
+   "tier": "Transcendent",
+   "chance": 1999999999
+  },
+  "breeze": {
+   "display": "Breeze",
+   "tier": "Event",
+   "chance": 80000,
+   "onlyIn": "BLAZING SUN",
+   "note": "1/40,000 Summer 2026"
+  },
+  "bubble": {
+   "display": "Bubble",
+   "tier": "Event",
+   "note": "Summer 2025"
+  },
+  "bubblecascade": {
+   "display": "Bubble : Cascade",
+   "tier": "Event",
+   "chance": 110000000,
+   "onlyIn": "BLAZING SUN",
+   "note": "1/55,000,000 Summer 2026"
+  },
+  "buoyant": {
+   "display": "Buoyant",
+   "tier": "Event",
+   "chance": 32000,
+   "onlyIn": "BLAZING SUN",
+   "note": "1/16,000 Summer 2026"
+  },
+  "burger": {
+   "display": "Burger",
+   "tier": "Event",
+   "chance": 676767,
+   "note": "April Fools 2026"
+  },
+  "butcher": {
+   "display": "Butcher",
+   "tier": "Event",
+   "note": "Season IX"
+  },
+  "carousel": {
+   "display": "Carousel",
+   "tier": "Event",
+   "note": "Halloween 2025"
+  },
+  "carriage": {
+   "display": "Carriage",
+   "tier": "Exalted",
+   "chance": 80000000
+  },
+  "cataclysmic": {
+   "display": "Cataclysmic",
+   "tier": "Event",
+   "note": "Halloween 2026"
+  },
+  "cauldron": {
+   "display": "Cauldron",
+   "tier": "Event",
+   "chance": 24000000,
+   "onlyIn": "PUMPKIN MOON",
+   "note": "Halloween 2026"
+  },
+  "celestial": {
+   "display": "Celestial",
+   "tier": "Legendary",
+   "chance": 350000
+  },
+  "celestialcupid": {
+   "display": "Celestial : Cupid",
+   "tier": "Event",
+   "note": "Valentines 2024"
+  },
+  "celestialdivine": {
+   "display": "Celestial : Divine",
+   "tier": "Mythic",
+   "chance": 7000000
+  },
+  "celestialeclipse": {
+   "display": "Celestial : Eclipse",
+   "tier": "Glorious",
+   "chance": 384400000
+  },
+  "celestialwicked": {
+   "display": "Celestial : Wicked",
+   "tier": "Event",
+   "chance": 1500000,
+   "onlyIn": "PUMPKIN MOON",
+   "note": "Halloween 2025"
+  },
+  "cellasteroides": {
+   "display": "Cell Asteroides",
+   "tier": "Transcendent",
+   "note": "Exalted"
+  },
+  "centaurus": {
+   "display": "Centaurus",
+   "tier": "Event",
+   "chance": 3000000000,
+   "onlyIn": "BLAZING SUN",
+   "note": "1/1,500,000,000 Summer 2026"
+  },
+  "centurion": {
+   "display": "Centurion",
+   "tier": "Exalted",
+   "chance": 25000000,
+   "onlyIn": "SINGULARITY"
+  },
+  "chillsear": {
+   "display": "Chillsear",
+   "tier": "Glorious",
+   "chance": 375000000,
+   "nativeChance": 125000000,
+   "nativeBiome": "SNOWY"
+  },
+  "christmastide": {
+   "display": "Christmastide",
+   "tier": "Event",
+   "note": "Christmas 2025"
+  },
+  "chromatic": {
+   "display": "Chromatic",
+   "tier": "Exalted",
+   "chance": 20000000
+  },
+  "chromaticexotic": {
+   "display": "Chromatic : Exotic",
+   "tier": "Unobtainable",
+   "note": "1 in 99,999,999 [Removed]"
+  },
+  "chromaticgenesis": {
+   "display": "Chromatic : Genesis",
+   "tier": "Glorious",
+   "chance": 99999999
+  },
+  "chromatichyper": {
+   "display": "Chromatic : Hyper",
+   "tier": "Transcendent",
+   "note": "Exalted"
+  },
+  "clockwork": {
+   "display": "Clockwork",
+   "tier": "Event",
+   "chance": 530000,
+   "onlyIn": "THE NULL'S EXISTENCE"
+  },
+  "coconut": {
+   "display": "Coconut",
+   "tier": "Event",
+   "chance": 34720000,
+   "onlyIn": "BLAZING SUN",
+   "note": "1/17,360,000 Summer 2026"
+  },
+  "cola": {
+   "display": "Cola",
+   "tier": "Epic",
+   "chance": 3999
+  },
+  "comet": {
+   "display": "Comet",
+   "tier": "Legendary",
+   "chance": 120000,
+   "nativeChance": 24000,
+   "nativeBiome": "SINGULARITY"
+  },
+  "common": {
+   "display": "Common",
+   "tier": "Basic",
+   "chance": 2
+  },
+  "constella": {
+   "display": "Constella",
+   "tier": "Unique",
+   "chance": 86988,
+   "onlyIn": "SINGULARITY"
+  },
+  "constrainttest": {
+   "display": "ConstraintTest",
+   "tier": "Unobtainable",
+   "note": "[Removed]"
+  },
+  "contentcreator": {
+   "display": "Content Creator",
+   "tier": "Unobtainable",
+   "note": "[Content Creator Exclusive]"
+  },
+  "contentcreatorplatinum": {
+   "display": "Content Creator : Platinum",
+   "tier": "Unobtainable",
+   "note": "[Verified Content Creator Exclusive]"
+  },
+  "contentdeleted": {
+   "display": "Content Deleted",
+   "tier": "Legendary",
+   "chance": 4040,
+   "onlyIn": "GLITCHED"
+  },
+  "copper": {
+   "display": "Copper",
+   "tier": "Unique",
+   "chance": 29000
+  },
+  "corlunae": {
+   "display": "Cor Lunae",
+   "tier": "Exalted",
+   "chance": 50000000,
+   "onlyIn": "THE RADIANT FOREST"
+  },
+  "corrosive": {
+   "display": "Corrosive",
+   "tier": "Unique",
+   "chance": 12000,
+   "nativeChance": 2400,
+   "nativeBiome": "CORRUPTION"
+  },
+  "corruptionegg": {
+   "display": "Corruption Egg",
+   "tier": "Event",
+   "note": "Easter 2025"
+  },
+  "cosmos": {
+   "display": "Cosmos",
+   "tier": "Mythic",
+   "chance": 1520000
+  },
+  "cosmosalice": {
+   "display": "Cosmos : Alice",
+   "tier": "Mythic",
+   "chance": 3500000
+  },
+  "crabtropica": {
+   "display": "Crabtropica",
+   "tier": "Event",
+   "chance": 1334221000,
+   "onlyIn": "BLAZING SUN",
+   "note": "1/667,110,500 Summer 2026"
+  },
+  "crimson": {
+   "display": "Crimson",
+   "tier": "Event",
+   "chance": 120000000,
+   "onlyIn": "BLOOD RAIN",
+   "note": "Halloween 2025"
+  },
+  "cruel": {
+   "display": "Cruel",
+   "tier": "Unobtainable",
+   "note": "[Dev-Exclusive]"
+  },
+  "cruor": {
+   "display": "Cruor",
+   "tier": "Event",
+   "note": "Halloween 2026"
+  },
+  "cryofang": {
+   "display": "CryoFang",
+   "tier": "Event",
+   "chance": 380000000,
+   "nativeChance": 190000000,
+   "nativeBiome": "AURORA",
+   "note": "Christmas 2025"
+  },
+  "cryogenic": {
+   "display": "Cryogenic",
+   "tier": "Event",
+   "chance": 250000,
+   "onlyIn": "AURORA",
+   "note": "Christmas 2025"
+  },
+  "cryptfire": {
+   "display": "Cryptfire",
+   "tier": "Event",
+   "chance": 21000000,
+   "onlyIn": "GRAVEYARD",
+   "note": "Halloween 2024"
+  },
+  "crystallized": {
+   "display": "Crystallized",
+   "tier": "Basic",
+   "chance": 64
+  },
+  "crystallizedbejeweled": {
+   "display": "Crystallized : Bejeweled",
+   "tier": "Mythic",
+   "chance": 3600000
+  },
+  "cytokinesis": {
+   "display": "Cytokinesis",
+   "tier": "Glorious",
+   "chance": 330400472,
+   "nativeChance": 165200236,
+   "nativeBiome": "CYBERSPACE"
+  },
+  "death": {
+   "display": "Death",
+   "tier": "Event",
+   "chance": 1400000000,
+   "onlyIn": "BLOOD RAIN",
+   "note": "Halloween 2026"
+  },
+  "deathkeeper": {
+   "display": "Deathkeeper",
+   "tier": "Event",
+   "note": "Halloween 2026"
+  },
+  "deepwoken": {
+   "display": "Deepwoken",
+   "tier": "Unobtainable",
+   "note": "[Removed]"
+  },
+  "defined": {
+   "display": "Defined",
+   "tier": "Event",
+   "chance": 2222000,
+   "nativeChance": 2222,
+   "nativeBiome": "NULL",
+   "note": "April Fools 2024"
+  },
+  "dementor": {
+   "display": "Dementor",
+   "tier": "Event",
+   "chance": 69000000,
+   "onlyIn": "GRAVEYARD",
+   "note": "Halloween 2026"
+  },
+  "devotee": {
+   "display": "Devotee",
+   "tier": "Event",
+   "note": "Halloween 2026"
+  },
+  "diaboli": {
+   "display": "Diaboli",
+   "tier": "Epic",
+   "chance": 1004
+  },
+  "diabolivoid": {
+   "display": "Diaboli : Void",
+   "tier": "Legendary",
+   "chance": 100400
+  },
+  "discipleofthecrimsonmoon": {
+   "display": "Disciple of the Crimson Moon",
+   "tier": "Event",
+   "note": "Season VII"
+  },
+  "divinus": {
+   "display": "Divinus",
+   "tier": "Basic",
+   "chance": 32,
+   "nativeChance": 6,
+   "nativeBiome": "HEAVEN"
+  },
+  "divinusangel": {
+   "display": "Divinus : Angel",
+   "tier": "Legendary",
+   "chance": 120000,
+   "nativeChance": 24000,
+   "nativeBiome": "HEAVEN"
+  },
+  "divinusguardian": {
+   "display": "Divinus : Guardian",
+   "tier": "Mythic",
+   "chance": 7777777,
+   "nativeChance": 1555555,
+   "nativeBiome": "HEAVEN"
+  },
+  "divinuslove": {
+   "display": "Divinus : Love",
+   "tier": "Event",
+   "note": "Valentines 2024"
+  },
+  "dizzy": {
+   "display": "Dizzy",
+   "tier": "Basic",
+   "chance": 123
+  },
+  "dominion": {
+   "display": "Dominion",
+   "tier": "Exalted",
+   "chance": 70000000,
+   "nativeChance": 14000000,
+   "nativeBiome": "HEAVEN"
+  },
+  "doodle": {
+   "display": "Doodle",
+   "tier": "Epic",
+   "chance": 7500
+  },
+  "doodleabyssalhunter": {
+   "display": "Doodle : Abyssal Hunter",
+   "tier": "Event",
+   "chance": 400000000,
+   "note": "April Fools 2026"
+  },
+  "dreadsea": {
+   "display": "Dreadsea",
+   "tier": "Event",
+   "note": "Halloween 2025"
+  },
+  "dreamcatcher": {
+   "display": "Dream Catcher",
+   "tier": "Challenged",
+   "chance": 2222222222,
+   "onlyIn": "NIGHTTIME"
+  },
+  "dreamer": {
+   "display": "Dreamer",
+   "tier": "Glorious",
+   "chance": 315000000
+  },
+  "dreammetric": {
+   "display": "Dreammetric",
+   "tier": "Challenged+",
+   "chance": 320000000,
+   "onlyIn": "DREAMSPACE"
+  },
+  "dreamscape": {
+   "display": "Dreamscape",
+   "tier": "Glorious",
+   "chance": 850000000
+  },
+  "dreamtraveler": {
+   "display": "Dream Traveler",
+   "tier": "Event",
+   "chance": 2025012025,
+   "nativeChance": 1012506013,
+   "nativeBiome": "AURORA",
+   "note": "Christmas 2025"
+  },
+  "duke": {
+   "display": "Duke",
+   "tier": "Unobtainable",
+   "note": "[Removed]"
+  },
+  "dullahan": {
+   "display": "Dullahan",
+   "tier": "Event",
+   "chance": 72000000,
+   "onlyIn": "GRAVEYARD",
+   "note": "Halloween 2024"
+  },
+  "easterisles": {
+   "display": "Easter Isles",
+   "tier": "Event",
+   "note": "Easter 2026"
+  },
+  "eclipse": {
+   "display": "Eclipse",
+   "tier": "Transcendent",
+   "note": "Legendary"
+  },
+  "edict": {
+   "display": "Edict",
+   "tier": "Unobtainable",
+   "note": "[Dev-Exclusive]"
+  },
+  "egger": {
+   "display": "Egger",
+   "tier": "Event",
+   "note": "Easter 2026"
+  },
+  "eggis": {
+   "display": "Eggis",
+   "tier": "Event",
+   "chance": 1150000000,
+   "note": "Easter 2026"
+  },
+  "eggore": {
+   "display": "Eggore",
+   "tier": "Event",
+   "chance": 700000000,
+   "note": "Easter 2026"
+  },
+  "eggsistance": {
+   "display": "Eggsistance",
+   "tier": "Event",
+   "chance": 307777777,
+   "note": "Easter 2026"
+  },
+  "eisveil": {
+   "display": "Eisveil",
+   "tier": "Glorious",
+   "chance": 830000000,
+   "nativeChance": 276666666,
+   "nativeBiome": "SNOWY"
+  },
+  "elude": {
+   "display": "Elude",
+   "tier": "Glorious",
+   "chance": 555555555
+  },
+  "embercrypt": {
+   "display": "Embercrypt",
+   "tier": "Event",
+   "chance": 9700000,
+   "onlyIn": "PUMPKIN MOON",
+   "note": "Halloween 2026"
+  },
+  "emerald": {
+   "display": "Emerald",
+   "tier": "Basic",
+   "chance": 500
+  },
+  "emperor": {
+   "display": "Emperor",
+   "tier": "Event",
+   "chance": 80000000,
+   "note": "Easter 2026"
+  },
+  "empty": {
+   "display": "Empty",
+   "tier": "Exalted",
+   "chance": 11111111
+  },
+  "encase": {
+   "display": "Encase",
+   "tier": "Event",
+   "chance": 230000000,
+   "nativeChance": 115000000,
+   "nativeBiome": "AURORA",
+   "note": "Christmas 2025"
+  },
+  "enchanted": {
+   "display": "Enchanted",
+   "tier": "Event",
+   "chance": 445000,
+   "onlyIn": "PUMPKIN MOON",
+   "note": "Halloween 2026"
+  },
+  "entropy": {
+   "display": "Entropy",
+   "tier": "Exalted",
+   "chance": 30000000,
+   "nativeChance": 15000000,
+   "nativeBiome": "LOST FOREST"
+  },
+  "eostre": {
+   "display": "Eostre",
+   "tier": "Event",
+   "chance": 1000000000,
+   "note": "Easter 2026"
+  },
+  "equinox": {
+   "display": "Equinox",
+   "tier": "Transcendent",
+   "chance": 2500000000
+  },
+  "equinoxyouareanidiot": {
+   "display": "Equinox : You Are An Idiot",
+   "tier": "Event",
+   "chance": 2500000000,
+   "note": "April Fools 2026"
+  },
+  "erebus": {
+   "display": "Erebus",
+   "tier": "Event",
+   "chance": 1200000000,
+   "onlyIn": "BLOOD RAIN",
+   "note": "Halloween 2025"
+  },
+  "ethereal": {
+   "display": "Ethereal",
+   "tier": "Exalted",
+   "chance": 35000000
+  },
+  "evanescent": {
+   "display": "Evanescent",
+   "tier": "Mythic",
+   "chance": 3360000,
+   "nativeChance": 840000,
+   "nativeBiome": "RAINY"
+  },
+  "evenight": {
+   "display": "EveNight",
+   "tier": "Event",
+   "chance": 424000000,
+   "nativeChance": 212000000,
+   "nativeBiome": "AURORA",
+   "note": "Christmas 2025"
+  },
+  "exanimatus": {
+   "display": "Exanimatus",
+   "tier": "Event",
+   "note": "Halloween 2026"
+  },
+  "exotic": {
+   "display": "Exotic",
+   "tier": "Legendary",
+   "chance": 99999
+  },
+  "exoticapex": {
+   "display": "Exotic : Apex",
+   "tier": "Exalted",
+   "chance": 49999500
+  },
+  "exoticvoid": {
+   "display": "Exotic : Void",
+   "tier": "Glorious",
+   "chance": 299999999
+  },
+  "express": {
+   "display": "Express",
+   "tier": "Event",
+   "chance": 90000000,
+   "nativeChance": 30000000,
+   "nativeBiome": "SNOWY",
+   "note": "Winter 2025"
+  },
+  "faith": {
+   "display": "Faith",
+   "tier": "Mythic",
+   "chance": 7250000,
+   "nativeChance": 1450000,
+   "nativeBiome": "HEAVEN"
+  },
+  "fault": {
+   "display": "Fault",
+   "tier": "Legendary",
+   "chance": 3000,
+   "onlyIn": "GLITCHED"
+  },
+  "felled": {
+   "display": "Felled",
+   "tier": "Glorious",
+   "chance": 180000000,
+   "nativeChance": 30000000,
+   "nativeBiome": "HELL"
+  },
+  "findtheprobabilityofthisaura": {
+   "display": "Find the probability of this aura.",
+   "tier": "Unobtainable",
+   "note": "[Dev-Exclusive]"
+  },
+  "floaty": {
+   "display": "Floaty",
+   "tier": "Event",
+   "chance": 600000,
+   "onlyIn": "BLAZING SUN",
+   "note": "1/300,000 Summer 2026"
+  },
+  "flora": {
+   "display": "Flora",
+   "tier": "Epic",
+   "chance": 3700,
+   "nativeChance": 1850,
+   "nativeBiome": "LOST FOREST"
+  },
+  "floraevergreen": {
+   "display": "Flora : Evergreen",
+   "tier": "Glorious",
+   "chance": 370073730,
+   "nativeChance": 185036865,
+   "nativeBiome": "LOST FOREST"
+  },
+  "floraflorest": {
+   "display": "Flora : Florest",
+   "tier": "Exalted",
+   "chance": 32800000,
+   "nativeChance": 16400000,
+   "nativeBiome": "LOST FOREST"
+  },
+  "flow": {
+   "display": "Flow",
+   "tier": "Unique",
+   "chance": 87000,
+   "nativeChance": 29000,
+   "nativeBiome": "WINDY"
+  },
+  "flowed": {
+   "display": "Flowed",
+   "tier": "Mythic",
+   "chance": 2121121,
+   "nativeChance": 2121,
+   "nativeBiome": "NULL OR THE LIMBO"
+  },
+  "flushed": {
+   "display": ":Flushed:",
+   "tier": "Epic",
+   "chance": 6900
+  },
+  "flushedhearteye": {
+   "display": "Flushed : Heart Eye",
+   "tier": "Event",
+   "note": "Valentines 2024"
+  },
+  "flushedlobotomy": {
+   "display": "Flushed : Lobotomy",
+   "tier": "Unique",
+   "chance": 69000
+  },
+  "flushedpumpkinity": {
+   "display": "Flushed : Pumpkinity",
+   "tier": "Event",
+   "chance": 69000,
+   "onlyIn": "PUMPKIN MOON",
+   "note": "Halloween 2026"
+  },
+  "flushedtroll": {
+   "display": "Flushed : Troll",
+   "tier": "Event",
+   "chance": 1000000,
+   "note": "April Fools 2025/2026"
+  },
+  "flutterbuggify": {
+   "display": "Flutter : Buggify",
+   "tier": "Mythic",
+   "chance": 2000000
+  },
+  "forbidden": {
+   "display": "Forbidden",
+   "tier": "Basic",
+   "chance": 403,
+   "nativeChance": 202,
+   "nativeBiome": "CYBERSPACE"
+  },
+  "formergardens": {
+   "display": "Former Gardens",
+   "tier": "Event",
+   "chance": 63000000,
+   "onlyIn": "BLOOD RAIN",
+   "note": "Halloween 2026"
+  },
+  "fragmentsofthecrimsonmoon": {
+   "display": "Fragments of the Crimson Moon",
+   "tier": "Challenged",
+   "chance": 1000,
+   "note": "1/100"
+  },
+  "frigid": {
+   "display": "Frigid",
+   "tier": "Event",
+   "note": "Winter 2025"
+  },
+  "frostwood": {
+   "display": "Frostwood",
+   "tier": "Event",
+   "chance": 24500000,
+   "nativeChance": 12250000,
+   "nativeBiome": "AURORA",
+   "note": "Christmas 2025"
+  },
+  "fruitpunch": {
+   "display": "FruitPunch",
+   "tier": "Event",
+   "chance": 45000000,
+   "onlyIn": "BLAZING SUN",
+   "note": "1/22,500,000 Summer 2026"
+  },
+  "galaxy": {
+   "display": "Galaxy",
+   "tier": "Mythic",
+   "chance": 5000000,
+   "nativeChance": 1000000,
+   "nativeBiome": "SINGULARITY"
+  },
+  "gargantua": {
+   "display": "Gargantua",
+   "tier": "Glorious",
+   "chance": 430000000,
+   "nativeChance": 86000000,
+   "nativeBiome": "SINGULARITY"
+  },
+  "gaze": {
+   "display": "Gaze",
+   "tier": "Event",
+   "chance": 977000000,
+   "onlyIn": "GRAVEYARD",
+   "note": "Halloween 2026"
+  },
+  "ghost": {
+   "display": "Ghost",
+   "tier": "Event",
+   "chance": 10414606,
+   "onlyIn": "GRAVEYARD",
+   "note": "Halloween 2026"
+  },
+  "gilded": {
+   "display": "Gilded",
+   "tier": "Basic",
+   "chance": 512,
+   "nativeChance": 128,
+   "nativeBiome": "SANDSTORM"
+  },
+  "gildedcrowned": {
+   "display": "Gilded : Crowned",
+   "tier": "Unique",
+   "chance": 20000,
+   "nativeChance": 5000,
+   "nativeBiome": "SANDSTORM"
+  },
+  "gingerbread": {
+   "display": "Gingerbread",
+   "tier": "Event",
+   "chance": 3750000,
+   "nativeChance": 1875000,
+   "nativeBiome": "AURORA",
+   "note": "Christmas 2025"
+  },
+  "glacier": {
+   "display": "Glacier",
+   "tier": "Epic",
+   "chance": 2304,
+   "nativeChance": 768,
+   "nativeBiome": "SNOWY"
+  },
+  "glitch": {
+   "display": "Glitch",
+   "tier": "Challenged",
+   "chance": 12210110,
+   "onlyIn": "GLITCHED"
+  },
+  "glitchedegg": {
+   "display": "Glitched Egg",
+   "tier": "Event",
+   "note": "Easter 2025"
+  },
+  "glock": {
+   "display": "Glock",
+   "tier": "Epic",
+   "chance": 1700
+  },
+  "glocktheglockofthesky": {
+   "display": "Glock : the glock of the sky",
+   "tier": "Event",
+   "chance": 170000000,
+   "note": "April Fools 2025"
+  },
+  "godslayer": {
+   "display": "Godslayer",
+   "tier": "Unobtainable",
+   "note": "[Unreleased]"
+  },
+  "good": {
+   "display": "Good",
+   "tier": "Basic",
+   "chance": 5
+  },
+  "gooserave": {
+   "display": "Goose Rave",
+   "tier": "Event",
+   "chance": 50000000,
+   "onlyIn": "BLAZING SUN",
+   "note": "1/25,000,000 Summer 2026"
+  },
+  "gothic": {
+   "display": "Gothic",
+   "tier": "Mythic",
+   "chance": 1000001
+  },
+  "graffiti": {
+   "display": "Graffiti",
+   "tier": "Exalted",
+   "chance": 12000000
+  },
+  "graftshifter": {
+   "display": "GraftShifter",
+   "tier": "Event",
+   "chance": 1134903170,
+   "onlyIn": "GRAVEYARD",
+   "note": "Halloween 2026"
+  },
+  "graveborn": {
+   "display": "Graveborn",
+   "tier": "Event",
+   "chance": 290000000,
+   "onlyIn": "GRAVEYARD",
+   "note": "Halloween 2025"
+  },
+  "gravitational": {
+   "display": "Gravitational",
+   "tier": "Mythic",
+   "chance": 2000000
+  },
+  "grief": {
+   "display": "Grief",
+   "tier": "Event",
+   "chance": 88250000,
+   "onlyIn": "GRAVEYARD",
+   "note": "Halloween 2025"
+  },
+  "guardian": {
+   "display": "Guardian",
+   "tier": "Exalted",
+   "chance": 10000000
+  },
+  "hades": {
+   "display": "Hades",
+   "tier": "Mythic",
+   "chance": 6666666,
+   "nativeChance": 1111111,
+   "nativeBiome": "HELL"
+  },
+  "hallowtreat": {
+   "display": "Hallow Treat",
+   "tier": "Event",
+   "chance": 70000000,
+   "onlyIn": "PUMPKIN MOON",
+   "note": "Halloween 2026"
+  },
+  "hallucination": {
+   "display": "Hallucination",
+   "tier": "Unobtainable",
+   "note": "[Removed]"
+  },
+  "hanahaki": {
+   "display": "Hanahaki",
+   "tier": "Event",
+   "chance": 66000000,
+   "onlyIn": "BLOOD RAIN",
+   "note": "Halloween 2026"
+  },
+  "harnessed": {
+   "display": "Harnessed",
+   "tier": "Mythic",
+   "chance": 8500000
+  },
+  "harnessedelements": {
+   "display": "Harnessed : Elements",
+   "tier": "Exalted",
+   "chance": 85000000
+  },
+  "harvester": {
+   "display": "Harvester",
+   "tier": "Event",
+   "chance": 666000000,
+   "onlyIn": "GRAVEYARD",
+   "note": "Halloween 2024"
+  },
+  "harvesternecromancy": {
+   "display": "Harvester : Necromancy",
+   "tier": "Event",
+   "chance": 225000000,
+   "onlyIn": "GRAVEYARD",
+   "note": "Halloween 2026"
+  },
+  "hasuen": {
+   "display": "Hasuen",
+   "tier": "Glorious",
+   "chance": 485000000,
+   "nativeChance": 242500000,
+   "nativeBiome": "LOST FOREST"
+  },
+  "hatchwarden": {
+   "display": "Hatchwarden",
+   "tier": "Event",
+   "chance": 40000000,
+   "note": "Easter 2026"
+  },
+  "hazard": {
+   "display": "Hazard",
+   "tier": "Epic",
+   "chance": 7000,
+   "nativeChance": 1400,
+   "nativeBiome": "CORRUPTION"
+  },
+  "hazardrays": {
+   "display": "Hazard : Rays",
+   "tier": "Unique",
+   "chance": 70000,
+   "nativeChance": 14000,
+   "nativeBiome": "CORRUPTION"
+  },
+  "headless": {
+   "display": "Headless",
+   "tier": "Event",
+   "chance": 3200000,
+   "onlyIn": "GRAVEYARD",
+   "note": "Halloween 2025"
+  },
+  "headlesshorseman": {
+   "display": "Headless : Horseman",
+   "tier": "Event",
+   "chance": 32000000,
+   "onlyIn": "PUMPKIN MOON",
+   "note": "Halloween 2025"
+  },
+  "heatstroke": {
+   "display": "Heatstroke",
+   "tier": "Event",
+   "chance": 83430,
+   "onlyIn": "BLAZING SUN",
+   "note": "1/41,715 Summer 2026"
+  },
+  "helios": {
+   "display": "Helios",
+   "tier": "Mythic",
+   "chance": 9000000
+  },
+  "hellborn": {
+   "display": "Hellborn",
+   "tier": "Challenged+",
+   "chance": 2644600640,
+   "onlyIn": "HELL"
+  },
+  "hellbound": {
+   "display": "Hellbound",
+   "tier": "Exalted",
+   "chance": 85000000,
+   "nativeChance": 14166666,
+   "nativeBiome": "HELL"
+  },
+  "hellfire": {
+   "display": "HellFire",
+   "tier": "Epic",
+   "chance": 4776,
+   "nativeChance": 796,
+   "nativeBiome": "HELL"
+  },
+  "hellfireegg": {
+   "display": "Hellfire Egg",
+   "tier": "Event",
+   "note": "Easter 2025"
+  },
+  "hellhound": {
+   "display": "Hellhound",
+   "tier": "Event",
+   "chance": 800000000,
+   "onlyIn": "BLOOD RAIN",
+   "note": "Halloween 2026"
+  },
+  "hollow": {
+   "display": "Hollow",
+   "tier": "Event",
+   "chance": 2666666666,
+   "onlyIn": "GRAVEYARD",
+   "note": "Halloween 2026"
+  },
+  "honey": {
+   "display": "Honey",
+   "tier": "Epic",
+   "chance": 8335
+  },
+  "hope": {
+   "display": "Hope",
+   "tier": "Legendary",
+   "chance": 488725,
+   "nativeChance": 97745,
+   "nativeBiome": "HEAVEN"
+  },
+  "hydrogen": {
+   "display": "Hydrogen",
+   "tier": "Epic",
+   "chance": 1111
+  },
+  "hylophobia": {
+   "display": "Hylophobia",
+   "tier": "Event",
+   "chance": 66363166,
+   "onlyIn": "PUMPKIN MOON",
+   "note": "Halloween 2026"
+  },
+  "hypervolt": {
+   "display": "Hyper-Volt",
+   "tier": "Mythic",
+   "chance": 7500000
+  },
+  "hypervolteverstorm": {
+   "display": "Hyper-Volt : Ever-Storm",
+   "tier": "Glorious",
+   "chance": 225000000
+  },
+  "icarus": {
+   "display": "Icarus",
+   "tier": "Exalted",
+   "chance": 15660000,
+   "nativeChance": 3132000,
+   "nativeBiome": "HEAVEN"
+  },
+  "illusionary": {
+   "display": "Illusionary",
+   "tier": "Challenged+",
+   "chance": 10000000,
+   "onlyIn": "CYBERSPACE"
+  },
+  "imaginary": {
+   "display": "Imaginary",
+   "tier": "Exalted",
+   "chance": 12200200
+  },
+  "impeached": {
+   "display": "Impeached",
+   "tier": "Glorious",
+   "chance": 200000000,
+   "nativeChance": 40000000,
+   "nativeBiome": "CORRUPTION"
+  },
+  "impeachedimcrine": {
+   "display": "Impeached : Imcrine",
+   "tier": "Event",
+   "chance": 250000000,
+   "nativeChance": 50000000,
+   "nativeBiome": "CORRUPTION",
+   "note": "April Fools 2026"
+  },
+  "impeachedimpeach": {
+   "display": "Impeached: i'm peach",
+   "tier": "Event",
+   "chance": 400000000,
+   "note": "April Fools 2024"
+  },
+  "ink": {
+   "display": "Ink",
+   "tier": "Basic",
+   "chance": 700
+  },
+  "inkleak": {
+   "display": "Ink : Leak",
+   "tier": "Unique",
+   "chance": 14000
+  },
+  "inkpaintballgun": {
+   "display": "Ink : PaintballGun",
+   "tier": "Event",
+   "note": "Season I"
+  },
+  "innovator": {
+   "display": "Innovator",
+   "tier": "Event",
+   "chance": 30000000,
+   "note": "RIA 2024"
+  },
+  "jackfrost": {
+   "display": "Jackfrost",
+   "tier": "Event",
+   "chance": 4700000,
+   "nativeChance": 2350000,
+   "nativeBiome": "AURORA",
+   "note": "Christmas 2025"
+  },
+  "jackpot": {
+   "display": "Jackpot",
+   "tier": "Basic",
+   "chance": 777,
+   "nativeChance": 194,
+   "nativeBiome": "SANDSTORM"
+  },
+  "jade": {
+   "display": "Jade",
+   "tier": "Legendary",
+   "chance": 125000,
+   "nativeChance": 62500,
+   "nativeBiome": "THE RADIANT FOREST"
+  },
+  "jadepurity": {
+   "display": "Jade : Purity",
+   "tier": "Mythic",
+   "chance": 9250000,
+   "nativeChance": 4625000,
+   "nativeBiome": "THE RADIANT FOREST"
+  },
+  "jazz": {
+   "display": "Jazz",
+   "tier": "Legendary",
+   "chance": 160000
+  },
+  "jazzorchestra": {
+   "display": "Jazz : Orchestra",
+   "tier": "Glorious",
+   "chance": 336870912
+  },
+  "juxtaposition": {
+   "display": "Juxtaposition",
+   "tier": "Exalted",
+   "chance": 40440400
+  },
+  "kanade": {
+   "display": "Kanade",
+   "tier": "Unobtainable",
+   "note": "[Dev-Exclusive]"
+  },
+  "kawaii": {
+   "display": "Kawaii",
+   "tier": "Unique",
+   "chance": 12300
+  },
+  "kromat1k": {
+   "display": "Kromat1k",
+   "tier": "Event",
+   "chance": 40000000,
+   "note": "April Fools 2024"
+  },
+  "kyawthuite": {
+   "display": "Kyawthuite",
+   "tier": "Legendary",
+   "chance": 850000,
+   "nativeChance": 425000,
+   "nativeBiome": "THE RADIANT FOREST"
+  },
+  "kyawthuiteiridescentmemory": {
+   "display": "Kyawthuite : Iridescent Memory",
+   "tier": "Unobtainable",
+   "note": "[Removed]"
+  },
+  "kyawthuiteremembrance": {
+   "display": "Kyawthuite : Remembrance",
+   "tier": "Glorious",
+   "chance": 450000000,
+   "nativeChance": 225000000,
+   "nativeBiome": "THE RADIANT FOREST"
+  },
+  "lament": {
+   "display": "Lament",
+   "tier": "Event",
+   "note": "Halloween 2025"
+  },
+  "lamenthyr": {
+   "display": "Lamenthyr",
+   "tier": "Event",
+   "chance": 1000000000,
+   "onlyIn": "BLOOD RAIN",
+   "note": "Halloween 2025"
+  },
+  "lantern": {
+   "display": "Lantern",
+   "tier": "Legendary",
+   "chance": 333333,
+   "nativeChance": 166667,
+   "nativeBiome": "LOST FOREST"
+  },
+  "layers": {
+   "display": "Layers",
+   "tier": "Unobtainable",
+   "note": "[Removed]"
+  },
+  "leviathan": {
+   "display": "Leviathan",
+   "tier": "Challenged",
+   "chance": 1730400000,
+   "onlyIn": "RAINY"
+  },
+  "lifeguard": {
+   "display": "Life Guard",
+   "tier": "Event",
+   "note": "Season I"
+  },
+  "lifeguardonduty": {
+   "display": "Life Guard : On-Duty",
+   "tier": "Event",
+   "chance": 600000000,
+   "onlyIn": "BLAZING SUN",
+   "note": "1/300,000,000 Summer 2026"
+  },
+  "lightning": {
+   "display": "Lightning",
+   "tier": "Unobtainable",
+   "chance": 40000,
+   "note": "[Unobtainable]"
+  },
+  "lily": {
+   "display": "Lily",
+   "tier": "Glorious",
+   "chance": 112000000,
+   "nativeChance": 56000000,
+   "nativeBiome": "LOST FOREST"
+  },
+  "lostsoul": {
+   "display": "Lost Soul",
+   "tier": "Epic",
+   "chance": 9200
+  },
+  "lostsoulstyx": {
+   "display": "Lost Soul : Styx",
+   "tier": "Event",
+   "chance": 2000000,
+   "onlyIn": "PUMPKIN MOON",
+   "note": "Halloween 2026"
+  },
+  "lostsoulwander": {
+   "display": "Lost Soul : Wander",
+   "tier": "Event",
+   "chance": 9400000,
+   "nativeChance": 4700000,
+   "nativeBiome": "AURORA",
+   "note": "Christmas 2025"
+  },
+  "lotusfall": {
+   "display": "Lotusfall",
+   "tier": "Glorious",
+   "chance": 320000000
+  },
+  "lullaby": {
+   "display": "Lullaby",
+   "tier": "Exalted",
+   "chance": 17000000
+  },
+  "lumenpool": {
+   "display": "Lumenpool",
+   "tier": "Glorious",
+   "chance": 220000000,
+   "nativeChance": 55000000,
+   "nativeBiome": "RAINY"
+  },
+  "lumenpoolramenpool": {
+   "display": "Lumenpool : Ramenpool",
+   "tier": "Event",
+   "chance": 630000000,
+   "nativeChance": 157500000,
+   "nativeBiome": "RAINY",
+   "note": "April Fools 2026"
+  },
+  "luminosity": {
+   "display": "Luminosity",
+   "tier": "Transcendent",
+   "chance": 1200000000
+  },
+  "lunar": {
+   "display": "Lunar",
+   "tier": "Unique",
+   "chance": 50000
+  },
+  "lunarcultist": {
+   "display": "Lunar : Cultist",
+   "tier": "Event",
+   "chance": 2000000,
+   "onlyIn": "GRAVEYARD",
+   "note": "Halloween 2025"
+  },
+  "lunarfullmoon": {
+   "display": "Lunar : Full Moon",
+   "tier": "Mythic",
+   "chance": 5000000
+  },
+  "lunarnightfall": {
+   "display": "Lunar : Nightfall",
+   "tier": "Event",
+   "chance": 3000000,
+   "onlyIn": "GRAVEYARD",
+   "note": "Halloween 2024"
+  },
+  "lunatic": {
+   "display": "Lunatic",
+   "tier": "Unobtainable",
+   "note": "[Removed]"
+  },
+  "maelstrom": {
+   "display": "Maelstrom",
+   "tier": "Glorious",
+   "chance": 309999999,
+   "nativeChance": 103333333,
+   "nativeBiome": "WINDY"
+  },
+  "magnetic": {
+   "display": "Magnetic",
+   "tier": "Epic",
+   "chance": 2048
+  },
+  "magneticreversepolarity": {
+   "display": "Magnetic : Reverse Polarity",
+   "tier": "Mythic",
+   "chance": 1024000
+  },
+  "malediction": {
+   "display": "Malediction",
+   "tier": "Event",
+   "chance": 730000000,
+   "onlyIn": "BLOOD RAIN",
+   "note": "Halloween 2025"
+  },
+  "manta": {
+   "display": "Manta",
+   "tier": "Event",
+   "chance": 300000000,
+   "nativeChance": 150000000,
+   "nativeBiome": "BLAZING SUN",
+   "note": "Summer 2025"
+  },
+  "marsh": {
+   "display": "Marsh",
+   "tier": "Unique",
+   "chance": 25000,
+   "nativeChance": 12500,
+   "nativeBiome": "LOST FOREST"
+  },
+  "masterhand": {
+   "display": "MasterHand",
+   "tier": "Transcendent",
+   "note": "Dimensional"
+  },
+  "mastermind": {
+   "display": "Mastermind",
+   "tier": "Unobtainable",
+   "note": "[Dev-Exclusive]"
+  },
+  "matrix": {
+   "display": "Matrix",
+   "tier": "Exalted",
+   "chance": 50000000,
+   "nativeChance": 25000000,
+   "nativeBiome": "CYBERSPACE"
+  },
+  "matrixoverdrive": {
+   "display": "Matrix : Overdrive",
+   "tier": "Glorious",
+   "chance": 503000000,
+   "nativeChance": 251500000,
+   "nativeBiome": "CYBERSPACE"
+  },
+  "matrixreality": {
+   "display": "Matrix : Reality",
+   "tier": "Glorious",
+   "chance": 601020102,
+   "nativeChance": 300510051,
+   "nativeBiome": "CYBERSPACE"
+  },
+  "matrixsteampunk": {
+   "display": "Matrix : Steampunk",
+   "tier": "Transcendent",
+   "note": "Transcendent"
+  },
+  "megaphone": {
+   "display": "Megaphone",
+   "tier": "Event",
+   "chance": 5000
+  },
+  "melodic": {
+   "display": "Melodic",
+   "tier": "Exalted",
+   "chance": 11300000
+  },
+  "melodicserenade": {
+   "display": "Melodic : Serenade",
+   "tier": "Exalted",
+   "chance": 77000000
+  },
+  "memory": {
+   "display": "Memory",
+   "tier": "Challenged",
+   "chance": 100
+  },
+  "memphis": {
+   "display": "Memphis",
+   "tier": "Event",
+   "chance": 98000000,
+   "onlyIn": "PUMPKIN MOON",
+   "note": "Halloween 2026"
+  },
+  "meta": {
+   "display": "Meta",
+   "tier": "Challenged",
+   "chance": 10000,
+   "onlyIn": "CYBERSPACE"
+  },
+  "metabytes": {
+   "display": "Metabytes",
+   "tier": "Mythic",
+   "chance": 4000000,
+   "nativeChance": 2000000,
+   "nativeBiome": "CYBERSPACE"
+  },
+  "mizuki": {
+   "display": "Mizuki",
+   "tier": "Unobtainable",
+   "note": "[Dev-Exclusive]"
+  },
+  "monarch": {
+   "display": "Monarch",
+   "tier": "Challenged+",
+   "chance": 3000000000,
+   "onlyIn": "CORRUPTION"
+  },
+  "moonchild": {
+   "display": "Moonchild",
+   "tier": "Mythic",
+   "chance": 5000000,
+   "onlyIn": "THE RADIANT FOREST"
+  },
+  "moonflower": {
+   "display": "Moonflower",
+   "tier": "Event",
+   "chance": 10000000,
+   "onlyIn": "PUMPKIN MOON",
+   "note": "Halloween 2024"
+  },
+  "morningstar": {
+   "display": "Morning Star",
+   "tier": "Unobtainable",
+   "note": "[Aura VFX Contributor Exclusive]"
+  },
+  "natural": {
+   "display": "Natural",
+   "tier": "Basic",
+   "chance": 8
+  },
+  "nautilus": {
+   "display": "Nautilus",
+   "tier": "Unique",
+   "chance": 70000
+  },
+  "nautiluslost": {
+   "display": "Nautilus : Lost",
+   "tier": "Mythic",
+   "chance": 7700000
+  },
+  "neferkhaf": {
+   "display": "Neferkhaf",
+   "tier": "Challenged",
+   "chance": 1000
+  },
+  "nightlight": {
+   "display": "Nightlight",
+   "tier": "Event",
+   "chance": 2666666,
+   "onlyIn": "PUMPKIN MOON",
+   "note": "Halloween 2026"
+  },
+  "nightmaresky": {
+   "display": "Nightmare Sky",
+   "tier": "Event",
+   "chance": 190000000,
+   "onlyIn": "PUMPKIN MOON",
+   "note": "Halloween 2024"
+  },
+  "nightshade": {
+   "display": "Nightshade",
+   "tier": "Mythic",
+   "chance": 8262026,
+   "onlyIn": "THE RADIANT FOREST"
+  },
+  "nihility": {
+   "display": "Nihility",
+   "tier": "Mythic",
+   "chance": 9000000,
+   "nativeChance": 9000,
+   "nativeBiome": "NULL OR THE LIMBO"
+  },
+  "northern": {
+   "display": "Northern",
+   "tier": "Event",
+   "chance": 405000000,
+   "nativeChance": 202500000,
+   "nativeBiome": "AURORA",
+   "note": "Christmas 2025"
+  },
+  "northpole": {
+   "display": "North Pole",
+   "tier": "Event",
+   "chance": 45000000,
+   "nativeChance": 22500000,
+   "nativeBiome": "AURORA",
+   "note": "Christmas 2025"
+  },
+  "nostalgia": {
+   "display": "Nostalgia",
+   "tier": "Event",
+   "chance": 20270000,
+   "onlyIn": "BLAZING SUN",
+   "note": "1/10,135,000 Summer 2026"
+  },
+  "nothing": {
+   "display": "Nothing",
+   "tier": "Basic",
+   "chance": 1,
+   "onlyIn": "THE LIMBO"
+  },
+  "nullegg": {
+   "display": "Null Egg",
+   "tier": "Event",
+   "note": "Easter 2025"
+  },
+  "nyctophobia": {
+   "display": "Nyctophobia",
+   "tier": "Transcendent",
+   "chance": 1011111010
+  },
+  "oblivion": {
+   "display": "Oblivion",
+   "tier": "Challenged+",
+   "chance": 2000
+  },
+  "observerofthecrimsonmoon": {
+   "display": "Observer of the Crimson Moon",
+   "tier": "Event",
+   "chance": 444444,
+   "onlyIn": "THE RED FULL MOON"
+  },
+  "obsidian": {
+   "display": "Obsidian",
+   "tier": "Mythic",
+   "chance": 1750000
+  },
+  "oculus": {
+   "display": "Oculus",
+   "tier": "Exalted",
+   "chance": 23233340,
+   "nativeChance": 4646668,
+   "nativeBiome": "HEAVEN"
+  },
+  "oni": {
+   "display": "Oni",
+   "tier": "Event",
+   "chance": 6666666,
+   "onlyIn": "BLOOD RAIN",
+   "note": "Halloween 2025"
+  },
+  "oppression": {
+   "display": "Oppression",
+   "tier": "Challenged+",
+   "chance": 220000000,
+   "onlyIn": "GLITCHED"
+  },
+  "origin": {
+   "display": "Origin",
+   "tier": "Mythic",
+   "chance": 6500000
+  },
+  "originonion": {
+   "display": "Origin : Onion",
+   "tier": "Event",
+   "chance": 8000000,
+   "note": "April Fools 2025"
+  },
+  "orion": {
+   "display": "Orion",
+   "tier": "Mythic",
+   "chance": 3000000,
+   "nativeChance": 600000,
+   "nativeBiome": "STARFALL"
+  },
+  "outlaw": {
+   "display": "Outlaw",
+   "tier": "Mythic",
+   "chance": 8000000,
+   "nativeChance": 2000000,
+   "nativeBiome": "SANDSTORM"
+  },
+  "overseer": {
+   "display": "Overseer",
+   "tier": "Exalted",
+   "chance": 45000000
+  },
+  "overture": {
+   "display": "Overture",
+   "tier": "Glorious",
+   "chance": 150000000
+  },
+  "overturehistory": {
+   "display": "Overture : History",
+   "tier": "Glorious",
+   "chance": 300000000
+  },
+  "parasite": {
+   "display": "Parasite",
+   "tier": "Mythic",
+   "chance": 3000000,
+   "nativeChance": 600000,
+   "nativeBiome": "CORRUPTION"
+  },
+  "parasol": {
+   "display": "Parasol",
+   "tier": "Event",
+   "note": "Summer 2025"
+  },
+  "parol": {
+   "display": "Parol",
+   "tier": "Event",
+   "chance": 760000000,
+   "nativeChance": 380000000,
+   "nativeBiome": "AURORA",
+   "note": "Christmas 2025"
+  },
+  "penumbra": {
+   "display": "Penumbra",
+   "tier": "Epic",
+   "chance": 1010
+  },
+  "permafrost": {
+   "display": "Permafrost",
+   "tier": "Unique",
+   "chance": 73500,
+   "nativeChance": 24500,
+   "nativeBiome": "SNOWY"
+  },
+  "perpetual": {
+   "display": "Perpetual",
+   "tier": "Glorious",
+   "chance": 315000000,
+   "nativeChance": 157500000,
+   "nativeBiome": "LOST FOREST"
+  },
+  "phantasma": {
+   "display": "Phantasma",
+   "tier": "Event",
+   "chance": 462000000,
+   "onlyIn": "PUMPKIN MOON",
+   "note": "Halloween 2025"
+  },
+  "pixelationstatic": {
+   "display": "PixelationStatic",
+   "tier": "Transcendent",
+   "chance": 1073741824,
+   "nativeChance": 536870912,
+   "nativeBiome": "CYBERSPACE"
+  },
+  "plasma": {
+   "display": "Plasma",
+   "tier": "Exalted",
+   "chance": 20600000
+  },
+  "player": {
+   "display": "Player",
+   "tier": "Epic",
+   "chance": 3000,
+   "nativeChance": 1500,
+   "nativeBiome": "CYBERSPACE"
+  },
+  "playerrespawn": {
+   "display": "Player : Respawn",
+   "tier": "Mythic",
+   "chance": 1999999,
+   "nativeChance": 999999,
+   "nativeBiome": "CYBERSPACE"
+  },
+  "pleiades": {
+   "display": "Pleiades",
+   "tier": "Unique",
+   "chance": 65358,
+   "onlyIn": "SINGULARITY"
+  },
+  "pointzero": {
+   "display": "Point : Zero",
+   "tier": "Challenged",
+   "chance": 521121900,
+   "onlyIn": "SINGULARITY"
+  },
+  "poolparty": {
+   "display": "Pool Party",
+   "tier": "Event",
+   "chance": 972000000,
+   "onlyIn": "BLAZING SUN",
+   "note": "1/486,000,000 Summer 2026"
+  },
+  "poseidon": {
+   "display": "Poseidon",
+   "tier": "Mythic",
+   "chance": 4000000,
+   "nativeChance": 1000000,
+   "nativeBiome": "RAINY"
+  },
+  "poseidonatlantis": {
+   "display": "Poseidon : Atlantis",
+   "tier": "Glorious",
+   "chance": 850000000,
+   "nativeChance": 212500000,
+   "nativeBiome": "RAINY"
+  },
+  "powered": {
+   "display": "Powered",
+   "tier": "Unique",
+   "chance": 16384
+  },
+  "precious": {
+   "display": "Precious",
+   "tier": "Epic",
+   "chance": 1024
+  },
+  "present": {
+   "display": "Present",
+   "tier": "Event",
+   "note": "Christmas 2025"
+  },
+  "projection": {
+   "display": "Projection",
+   "tier": "Challenged",
+   "chance": 197000000,
+   "onlyIn": "SINGULARITY"
+  },
+  "prologue": {
+   "display": "Prologue",
+   "tier": "Glorious",
+   "chance": 666616111
+  },
+  "prophecy": {
+   "display": "Prophecy",
+   "tier": "Glorious",
+   "chance": 275649430,
+   "nativeChance": 55129886,
+   "nativeBiome": "HEAVEN"
+  },
+  "prowler": {
+   "display": "Prowler",
+   "tier": "Event",
+   "chance": 540000,
+   "onlyIn": "THE HYPERSPACE REALM"
+  },
+  "pukeko": {
+   "display": "pukeko",
+   "tier": "Event",
+   "chance": 3198,
+   "note": "April Fools 2025/2026"
+  },
+  "pukekojumping": {
+   "display": "Pukeko : Jumping",
+   "tier": "Event",
+   "chance": 31980000,
+   "note": "April Fools 2026"
+  },
+  "pukekopukekogod": {
+   "display": "Pukeko : P.U.K.E.K.O.G.O.D.",
+   "tier": "Event",
+   "chance": 1000000000,
+   "note": "April Fools 2026"
+  },
+  "pulsar": {
+   "display": "Pulsar",
+   "tier": "Unique",
+   "chance": 83345,
+   "onlyIn": "SINGULARITY"
+  },
+  "pump": {
+   "display": "Pump",
+   "tier": "Event",
+   "chance": 200000,
+   "onlyIn": "PUMPKIN MOON",
+   "note": "Halloween 2024"
+  },
+  "pumptrickster": {
+   "display": "Pump : Trickster",
+   "tier": "Event",
+   "chance": 600000,
+   "onlyIn": "PUMPKIN MOON",
+   "note": "Halloween 2025"
+  },
+  "pythios": {
+   "display": "Pythios",
+   "tier": "Glorious",
+   "chance": 666666666,
+   "nativeChance": 111111111,
+   "nativeBiome": "HELL"
+  },
+  "quartz": {
+   "display": "Quartz",
+   "tier": "Epic",
+   "chance": 8192
+  },
+  "quartzrose": {
+   "display": "Quartz : Rose",
+   "tier": "Exalted",
+   "chance": 97500000
+  },
+  "rabbitinvasion": {
+   "display": "Rabbit Invasion",
+   "tier": "Event",
+   "note": "Easter 2026"
+  },
+  "raft": {
+   "display": "Raft",
+   "tier": "Event",
+   "chance": 8000,
+   "onlyIn": "BLAZING SUN",
+   "note": "1/4,000 Summer 2026"
+  },
+  "rage": {
+   "display": "Rage",
+   "tier": "Basic",
+   "chance": 128
+  },
+  "ragebrawler": {
+   "display": "Rage : Brawler",
+   "tier": "Mythic",
+   "chance": 1280000
+  },
+  "rageheated": {
+   "display": "Rage : Heated",
+   "tier": "Unique",
+   "chance": 12800
+  },
+  "rainyegg": {
+   "display": "Rainy Egg",
+   "tier": "Event",
+   "note": "Easter 2025"
+  },
+  "rare": {
+   "display": "Rare",
+   "tier": "Basic",
+   "chance": 16
+  },
+  "ravage": {
+   "display": "Ravage",
+   "tier": "Event",
+   "chance": 930000000,
+   "onlyIn": "GRAVEYARD",
+   "note": "Halloween 2025"
+  },
+  "raven": {
+   "display": "Raven",
+   "tier": "Legendary",
+   "chance": 500000
+  },
+  "ravenplague": {
+   "display": "Raven : Plague",
+   "tier": "Glorious",
+   "chance": 200000000
+  },
+  "reaper": {
+   "display": "Reaper",
+   "tier": "Event",
+   "chance": 66000000,
+   "onlyIn": "BLOOD RAIN",
+   "note": "Halloween 2025"
+  },
+  "redfullmoon": {
+   "display": "Red Full Moon",
+   "tier": "Unobtainable",
+   "note": "[Dev-Exclusive]"
+  },
+  "refraction": {
+   "display": "Refraction",
+   "tier": "Mythic",
+   "chance": 7242000
+  },
+  "reina": {
+   "display": "Reina",
+   "tier": "Event",
+   "note": "Season IV"
+  },
+  "rejoice": {
+   "display": "Rejoice",
+   "tier": "Event",
+   "chance": 700000000,
+   "onlyIn": "BLOOD RAIN",
+   "note": "Halloween 2026"
+  },
+  "rekindle": {
+   "display": "Rekindle",
+   "tier": "Epic",
+   "chance": 7500,
+   "onlyIn": "THE RADIANT FOREST"
+  },
+  "revive": {
+   "display": "Revive",
+   "tier": "Event",
+   "chance": 645000000,
+   "note": "Easter 2026"
+  },
+  "roadtrip": {
+   "display": "Road Trip",
+   "tier": "Unobtainable",
+   "note": "[Removed]"
+  },
+  "ruby": {
+   "display": "Ruby",
+   "tier": "Basic",
+   "chance": 350
+  },
+  "rubybrimstone": {
+   "display": "Ruby : Brimstone",
+   "tier": "Exalted",
+   "chance": 24060000
+  },
+  "ruins": {
+   "display": "Ruins",
+   "tier": "Glorious",
+   "chance": 500000000,
+   "nativeChance": 250000000,
+   "nativeBiome": "LOST FOREST"
+  },
+  "ruinswithered": {
+   "display": "Ruins : Withered",
+   "tier": "Glorious",
+   "chance": 800000000,
+   "nativeChance": 400000000,
+   "nativeBiome": "LOST FOREST"
+  },
+  "runic": {
+   "display": "Runic",
+   "tier": "Exalted",
+   "chance": 50000000,
+   "nativeChance": 25000000,
+   "nativeBiome": "LOST FOREST"
+  },
+  "runicwilt": {
+   "display": "Runic : Wilt",
+   "tier": "Exalted",
+   "chance": 87388744,
+   "nativeChance": 43694372,
+   "nativeBiome": "LOST FOREST"
+  },
+  "sailor": {
+   "display": "Sailor",
+   "tier": "Exalted",
+   "chance": 12000000,
+   "nativeChance": 3000000,
+   "nativeBiome": "RAINY"
+  },
+  "sailoradmiral": {
+   "display": "Sailor : Admiral",
+   "tier": "Glorious",
+   "chance": 540000000,
+   "nativeChance": 135000000,
+   "nativeBiome": "RAINY"
+  },
+  "sailorflyingdutchman": {
+   "display": "Sailor : Flying Dutchman",
+   "tier": "Exalted",
+   "chance": 80000000,
+   "nativeChance": 20000000,
+   "nativeBiome": "RAINY"
+  },
+  "samgong": {
+   "display": "Samgong",
+   "tier": "Unobtainable",
+   "note": "[Dev-Exclusive]"
+  },
+  "sandbasket": {
+   "display": "SandBasket",
+   "tier": "Event",
+   "note": "Summer 2025"
+  },
+  "sandstormegg": {
+   "display": "Sandstorm Egg",
+   "tier": "Event",
+   "note": "Easter 2025"
+  },
+  "santafrost": {
+   "display": "Santa Frost",
+   "tier": "Event",
+   "chance": 45000000,
+   "nativeChance": 15000000,
+   "nativeBiome": "SNOWY",
+   "note": "Winter 2025"
+  },
+  "sapphire": {
+   "display": "Sapphire",
+   "tier": "Basic",
+   "chance": 800
+  },
+  "sapphirepeace": {
+   "display": "Sapphire : Peace",
+   "tier": "Unobtainable",
+   "note": "[Unreleased]"
+  },
+  "savior": {
+   "display": "Savior",
+   "tier": "Mythic",
+   "chance": 3200000
+  },
+  "scavenger": {
+   "display": "Scavenger",
+   "tier": "Event",
+   "note": "Easter 2026"
+  },
+  "scorpion": {
+   "display": "Scorpion",
+   "tier": "Event",
+   "note": "Season II"
+  },
+  "seekerofthecrimsonmoon": {
+   "display": "Seeker of the Crimson Moon",
+   "tier": "Event",
+   "chance": 666666,
+   "onlyIn": "THE RED FULL MOON"
+  },
+  "sentinel": {
+   "display": "Sentinel",
+   "tier": "Exalted",
+   "chance": 60000000
+  },
+  "shardsurfer": {
+   "display": "Shard Surfer",
+   "tier": "Event",
+   "chance": 225000000,
+   "nativeChance": 75000000,
+   "nativeBiome": "SNOWY",
+   "note": "Summer 2024"
+  },
+  "sharkyn": {
+   "display": "Sharkyn",
+   "tier": "Exalted",
+   "chance": 10000000,
+   "nativeChance": 2500000,
+   "nativeBiome": "RAINY"
+  },
+  "sharkynhammerhead": {
+   "display": "Sharkyn : HammerHead",
+   "tier": "Glorious",
+   "chance": 120000000
+  },
+  "shiftlock": {
+   "display": "Shiftlock",
+   "tier": "Mythic",
+   "chance": 3325000,
+   "nativeChance": 3325,
+   "nativeBiome": "NULL OR THE LIMBO"
+  },
+  "shucks": {
+   "display": "Shucks",
+   "tier": "Event",
+   "chance": 4460000,
+   "onlyIn": "BLOOD RAIN",
+   "note": "Halloween 2025"
+  },
+  "sidereum": {
+   "display": "Sidereum",
+   "tier": "Epic",
+   "chance": 4096
+  },
+  "sinister": {
+   "display": "Sinister",
+   "tier": "Event",
+   "chance": 15000000,
+   "onlyIn": "PUMPKIN MOON",
+   "note": "Halloween 2025"
+  },
+  "sinisterp": {
+   "display": "Sinister : P",
+   "tier": "Event",
+   "note": "Halloween 2026"
+  },
+  "sinisters": {
+   "display": "Sinister : S",
+   "tier": "Event",
+   "note": "Halloween 2026"
+  },
+  "sirius": {
+   "display": "Sirius",
+   "tier": "Exalted",
+   "chance": 14000000,
+   "nativeChance": 2800000,
+   "nativeBiome": "STARFALL"
+  },
+  "siriusunob": {
+   "display": "Sirius_unob",
+   "tier": "Unobtainable",
+   "note": "[Removed]"
+  },
+  "skyburst": {
+   "display": "Sky Burst",
+   "tier": "Event",
+   "chance": 60000000,
+   "nativeChance": 30000000,
+   "nativeBiome": "AURORA",
+   "note": "Christmas 2025"
+  },
+  "skyfestival": {
+   "display": "Sky Festival",
+   "tier": "Event",
+   "chance": 2000000000,
+   "note": "Easter 2026"
+  },
+  "skyforge": {
+   "display": "Skyforge",
+   "tier": "Event",
+   "note": "Christmas 2025"
+  },
+  "slaughter": {
+   "display": "Slaughter",
+   "tier": "Event",
+   "note": "Season III"
+  },
+  "sloth": {
+   "display": "Sloth",
+   "tier": "Glorious",
+   "chance": 650000000
+  },
+  "smiro": {
+   "display": ":smiro:",
+   "tier": "Unobtainable",
+   "note": "[Removed]"
+  },
+  "snowball": {
+   "display": "Snowball",
+   "tier": "Event",
+   "chance": 10000,
+   "nativeChance": 5000,
+   "nativeBiome": "AURORA",
+   "note": "Christmas 2025"
+  },
+  "snowyegg": {
+   "display": "Snowy Egg",
+   "tier": "Event",
+   "note": "Easter 2025"
+  },
+  "sol": {
+   "display": "Sol",
+   "tier": "Unobtainable",
+   "note": "[Dev-Exclusive]"
+  },
+  "solar": {
+   "display": "Solar",
+   "tier": "Unique",
+   "chance": 50000
+  },
+  "solarsolstice": {
+   "display": "Solar : Solstice",
+   "tier": "Mythic",
+   "chance": 5000000
+  },
+  "sophyra": {
+   "display": "Sophyra",
+   "tier": "Glorious",
+   "chance": 570000000
+  },
+  "soulhunter": {
+   "display": "Soul Hunter",
+   "tier": "Event",
+   "chance": 40000000,
+   "onlyIn": "GRAVEYARD",
+   "note": "Halloween 2024"
+  },
+  "soultorn": {
+   "display": "Soultorn",
+   "tier": "Mythic",
+   "chance": 8333333
+  },
+  "sovereign": {
+   "display": "Sovereign",
+   "tier": "Glorious",
+   "chance": 750000000
+  },
+  "sovereignfrostveil": {
+   "display": "Sovereign : Frostveil",
+   "tier": "Event",
+   "chance": 1000000000,
+   "nativeChance": 500000000,
+   "nativeBiome": "AURORA",
+   "note": "Christmas 2025"
+  },
+  "spectraflow": {
+   "display": "Spectraflow",
+   "tier": "Glorious",
+   "chance": 100000000
+  },
+  "spectre": {
+   "display": "Spectre",
+   "tier": "Legendary",
+   "chance": 140000
+  },
+  "spectrerequiem": {
+   "display": "Spectre : Requiem",
+   "tier": "Mythic",
+   "chance": 8222000
+  },
+  "starborn": {
+   "display": "Starborn",
+   "tier": "Exalted",
+   "chance": 72000000,
+   "nativeChance": 14400000,
+   "nativeBiome": "STARFALL"
+  },
+  "stardust": {
+   "display": "Stardust",
+   "tier": "Unobtainable",
+   "note": "[Removed]"
+  },
+  "starfallegg": {
+   "display": "Starfall Egg",
+   "tier": "Event",
+   "note": "Easter 2025"
+  },
+  "stargazer": {
+   "display": "Stargazer",
+   "tier": "Mythic",
+   "chance": 9200000,
+   "nativeChance": 1840000,
+   "nativeBiome": "STARFALL"
+  },
+  "starlight": {
+   "display": "Starlight",
+   "tier": "Unique",
+   "chance": 50000,
+   "nativeChance": 10000,
+   "nativeBiome": "STARFALL"
+  },
+  "starlightkunzite": {
+   "display": "Starlight : Kunzite",
+   "tier": "Mythic",
+   "chance": 1000000,
+   "nativeChance": 200000,
+   "nativeBiome": "STARFALL"
+  },
+  "starrider": {
+   "display": "StarRider",
+   "tier": "Unique",
+   "chance": 50000,
+   "nativeChance": 10000,
+   "nativeBiome": "STARFALL"
+  },
+  "starridersnowflake": {
+   "display": "StarRider : Snowflake",
+   "tier": "Event",
+   "chance": 240000,
+   "nativeChance": 120000,
+   "nativeBiome": "AURORA",
+   "note": "Christmas 2025"
+  },
+  "starriderstarfish": {
+   "display": "StarRider : Starfish",
+   "tier": "Event",
+   "chance": 250000,
+   "nativeChance": 25000,
+   "nativeBiome": "STARFALL",
+   "note": "Summer 2024"
+  },
+  "starrideryourdidit": {
+   "display": "StarRider : yourdidit",
+   "tier": "Event",
+   "chance": 1234567,
+   "note": "April Fools 2026"
+  },
+  "starscourge": {
+   "display": "Starscourge",
+   "tier": "Exalted",
+   "chance": 10000000,
+   "nativeChance": 2000000,
+   "nativeBiome": "STARFALL"
+  },
+  "starscourgeradiant": {
+   "display": "Starscourge : Radiant",
+   "tier": "Glorious",
+   "chance": 100000000,
+   "nativeChance": 20000000,
+   "nativeBiome": "STARFALL"
+  },
+  "stella": {
+   "display": "Stella",
+   "tier": "Unobtainable",
+   "note": "[Removed]"
+  },
+  "stellar": {
+   "display": "Stellar",
+   "tier": "Unobtainable",
+   "note": "[Removed]"
+  },
+  "stormal": {
+   "display": "Stormal",
+   "tier": "Unique",
+   "chance": 90000,
+   "nativeChance": 30000,
+   "nativeBiome": "WINDY"
+  },
+  "stormalhurricane": {
+   "display": "Stormal : Hurricane",
+   "tier": "Exalted",
+   "chance": 13500000,
+   "nativeChance": 4500000,
+   "nativeBiome": "WINDY"
+  },
+  "surfer": {
+   "display": "Surfer",
+   "tier": "Event",
+   "note": "Limited Summer 2024"
+  },
+  "surfersymphony": {
+   "display": "Surfer : Symphony",
+   "tier": "Event",
+   "chance": 600000000,
+   "note": "April Fools 2026"
+  },
+  "symbiosis": {
+   "display": "Symbiosis",
+   "tier": "Mythic",
+   "chance": 1331201,
+   "nativeChance": 266240,
+   "nativeBiome": "CORRUPTION"
+  },
+  "symphony": {
+   "display": "Symphony",
+   "tier": "Glorious",
+   "chance": 175000000
+  },
+  "symphonybloomed": {
+   "display": "Symphony : Bloomed",
+   "tier": "Event",
+   "chance": 375000000,
+   "note": "Valentines 2026"
+  },
+  "targeted": {
+   "display": "Targeted",
+   "tier": "Epic",
+   "chance": 5000
+  },
+  "terror": {
+   "display": "Terror",
+   "tier": "Legendary",
+   "chance": 400000
+  },
+  "thaneborne": {
+   "display": "Thaneborne",
+   "tier": "Event",
+   "note": "Halloween 2025"
+  },
+  "therma": {
+   "display": "Therma",
+   "tier": "Unobtainable",
+   "note": "[Removed]"
+  },
+  "therock": {
+   "display": "The Rock",
+   "tier": "Unobtainable",
+   "note": "[Removed]"
+  },
+  "tomorrow": {
+   "display": "Tomorrow",
+   "tier": "Challenged+",
+   "onlyIn": "THE RADIANT FOREST",
+   "note": "Obtained after collecting The 7 Radiant Moons"
+  },
+  "topaz": {
+   "display": "Topaz",
+   "tier": "Basic",
+   "chance": 150
+  },
+  "treehouse": {
+   "display": "Tree House",
+   "tier": "Transcendent",
+   "chance": 3800000000,
+   "nativeChance": 1900000000,
+   "nativeBiome": "LOST FOREST"
+  },
+  "tropicalisles": {
+   "display": "Tropical Isles",
+   "tier": "Event",
+   "chance": 730000000,
+   "onlyIn": "BLAZING SUN",
+   "note": "1/365,000,000 Summer 2026"
+  },
+  "truejade": {
+   "display": "True Jade",
+   "tier": "Challenged",
+   "onlyIn": "THE RADIANT FOREST",
+   "note": "Obtainable after rolling all Jade variants 1/10,250,000"
+  },
+  "truekyawthuite": {
+   "display": "True Kyawthuite",
+   "tier": "Challenged",
+   "onlyIn": "THE RADIANT FOREST",
+   "note": "Obtainable after rolling all Kyawthuite variants 1/825,000"
+  },
+  "truetwilight": {
+   "display": "True Twilight",
+   "tier": "Challenged",
+   "onlyIn": "THE RADIANT FOREST",
+   "note": "Obtainable after rolling all Twilight variants 1/6,000,000"
+  },
+  "twilight": {
+   "display": "Twilight",
+   "tier": "Mythic",
+   "chance": 6000000
+  },
+  "twilightiridescentmemory": {
+   "display": "Twilight : Iridescent Memory",
+   "tier": "Exalted",
+   "chance": 60000000
+  },
+  "twilightviridescentmemory": {
+   "display": "Twilight : Viridescent Memory",
+   "tier": "Unobtainable",
+   "note": "[Removed]"
+  },
+  "twilightwitheringgrace": {
+   "display": "Twilight : Withering Grace",
+   "tier": "Glorious",
+   "chance": 422656000
+  },
+  "umbra": {
+   "display": "Umbra",
+   "tier": "Epic",
+   "chance": 1010
+  },
+  "uncommon": {
+   "display": "Uncommon",
+   "tier": "Basic",
+   "chance": 4
+  },
+  "undead": {
+   "display": "Undead",
+   "tier": "Unique",
+   "chance": 12000,
+   "nativeChance": 2000,
+   "nativeBiome": "HELL"
+  },
+  "undeaddevil": {
+   "display": "Undead : Devil",
+   "tier": "Legendary",
+   "chance": 666666,
+   "nativeChance": 111111,
+   "nativeBiome": "HELL"
+  },
+  "undefined": {
+   "display": "Undefined",
+   "tier": "Mythic",
+   "chance": 1111000,
+   "nativeChance": 1111,
+   "nativeBiome": "NULL OR THE LIMBO"
+  },
+  "unknown": {
+   "display": "Unknown",
+   "tier": "Glorious",
+   "chance": 444444444
+  },
+  "vacation": {
+   "display": "Vacation",
+   "tier": "Event",
+   "chance": 58620000,
+   "onlyIn": "BLAZING SUN",
+   "note": "1/29,310,000 Summer 2026"
+  },
+  "vega": {
+   "display": "Vega",
+   "tier": "Mythic",
+   "chance": 2580000,
+   "onlyIn": "SINGULARITY"
+  },
+  "veinweaver": {
+   "display": "Veinweaver",
+   "tier": "Event",
+   "note": "Halloween 2025"
+  },
+  "velocity": {
+   "display": "Velocity",
+   "tier": "Mythic",
+   "chance": 7630000
+  },
+  "velvet": {
+   "display": "Velvet",
+   "tier": "Event",
+   "note": "Valentines 2026"
+  },
+  "vendor": {
+   "display": "Vendor",
+   "tier": "Event",
+   "chance": 17500000,
+   "onlyIn": "BLAZING SUN",
+   "note": "1/8,750,000 Summer 2026"
+  },
+  "verdict": {
+   "display": "Verdict",
+   "tier": "Event",
+   "chance": 700000,
+   "onlyIn": "THE CITADEL OF ORDERS"
+  },
+  "verysmallsewageratthatsabout3082studslong": {
+   "display": "Very Small Sewage Rat That's About 3.082 Studs Long",
+   "tier": "Event",
+   "chance": 20070629,
+   "note": "April Fools 2026"
+  },
+  "veylune": {
+   "display": "Veylune",
+   "tier": "Legendary",
+   "chance": 550000,
+   "nativeChance": 275000,
+   "nativeBiome": "LOST FOREST"
+  },
+  "virtual": {
+   "display": "Virtual",
+   "tier": "Mythic",
+   "chance": 2500000,
+   "nativeChance": 1250000,
+   "nativeBiome": "CYBERSPACE"
+  },
+  "virtualfatalerror": {
+   "display": "Virtual : Fatal Error",
+   "tier": "Exalted",
+   "chance": 40413000,
+   "nativeChance": 20206500,
+   "nativeBiome": "CYBERSPACE"
+  },
+  "virtualfullcontrol": {
+   "display": "Virtual : Full Control",
+   "tier": "Exalted",
+   "chance": 80000000,
+   "nativeChance": 40000000,
+   "nativeBiome": "CYBERSPACE"
+  },
+  "virtualmemory": {
+   "display": "Virtual Memory",
+   "tier": "Glorious",
+   "chance": 232232232,
+   "nativeChance": 116116116,
+   "nativeBiome": "CYBERSPACE"
+  },
+  "virtualultimate": {
+   "display": "Virtual : Ultimate",
+   "tier": "Exalted",
+   "chance": 80000000,
+   "nativeChance": 40000000,
+   "nativeBiome": "CYBERSPACE"
+  },
+  "virtualworldwide": {
+   "display": "Virtual : WorldWide",
+   "tier": "Exalted",
+   "chance": 87500000,
+   "nativeChance": 43750000,
+   "nativeBiome": "CYBERSPACE"
+  },
+  "vital": {
+   "display": "Vital",
+   "tier": "Event",
+   "chance": 6000000,
+   "onlyIn": "PUMPKIN MOON",
+   "note": "Halloween 2024"
+  },
+  "volcanic": {
+   "display": "Volcanic",
+   "tier": "Glorious",
+   "chance": 480000000,
+   "nativeChance": 80000000,
+   "nativeBiome": "HELL"
+  },
+  "vortex": {
+   "display": "Vortex",
+   "tier": "Legendary",
+   "chance": 399999,
+   "nativeChance": 133333,
+   "nativeBiome": "WINDY"
+  },
+  "warlock": {
+   "display": "Warlock",
+   "tier": "Legendary",
+   "chance": 666000
+  },
+  "watcher": {
+   "display": "Watcher",
+   "tier": "Epic",
+   "chance": 5000,
+   "onlyIn": "THE RADIANT FOREST"
+  },
+  "watermelon": {
+   "display": "Watermelon",
+   "tier": "Event",
+   "chance": 320000,
+   "note": "Summer 2024"
+  },
+  "watermelonsummersnack": {
+   "display": "Watermelon : Summersnack",
+   "tier": "Event",
+   "chance": 3200000,
+   "onlyIn": "BLAZING SUN",
+   "note": "1/1,600,000 Summer 2026"
+  },
+  "watt": {
+   "display": "Watt",
+   "tier": "Unique",
+   "chance": 32768
+  },
+  "werewolf": {
+   "display": "Werewolf",
+   "tier": "Event",
+   "chance": 3600000,
+   "onlyIn": "GRAVEYARD",
+   "note": "Halloween 2025"
+  },
+  "wind": {
+   "display": "Wind",
+   "tier": "Basic",
+   "chance": 900,
+   "nativeChance": 300,
+   "nativeBiome": "WINDY"
+  },
+  "windyegg": {
+   "display": "Windy Egg",
+   "tier": "Event",
+   "note": "Easter 2025"
+  },
+  "winterfantasy": {
+   "display": "Winter Fantasy",
+   "tier": "Event",
+   "chance": 72000000,
+   "nativeChance": 24000000,
+   "nativeBiome": "SNOWY",
+   "note": "Winter 2025"
+  },
+  "wintergarden": {
+   "display": "Winter Garden",
+   "tier": "Event",
+   "chance": 1450012025,
+   "nativeChance": 725006013,
+   "nativeBiome": "AURORA",
+   "note": "Christmas 2025"
+  },
+  "withered": {
+   "display": "Withered",
+   "tier": "Event",
+   "chance": 283299000,
+   "onlyIn": "GRAVEYARD",
+   "note": "Halloween 2026"
+  },
+  "wonderland": {
+   "display": "Wonderland",
+   "tier": "Event",
+   "chance": 12000000,
+   "nativeChance": 4000000,
+   "nativeBiome": "SNOWY",
+   "note": "Winter 2025"
+  },
+  "workshop": {
+   "display": "Workshop",
+   "tier": "Event",
+   "chance": 700000000,
+   "nativeChance": 350000000,
+   "nativeBiome": "AURORA",
+   "note": "Christmas 2025"
+  },
+  "workshopsystem": {
+   "display": "Workshop : System",
+   "tier": "Event",
+   "chance": 650000000,
+   "nativeChance": 325000000,
+   "nativeBiome": "AURORA",
+   "note": "April Fools 2026"
+  },
+  "wraith": {
+   "display": "Wraith",
+   "tier": "Mythic",
+   "chance": 4100000
+  },
+  "wraithlight": {
+   "display": "Wraithlight",
+   "tier": "Event",
+   "chance": 695000000,
+   "onlyIn": "BLOOD RAIN",
+   "note": "Halloween 2025"
+  },
+  "wraithphasmophobia": {
+   "display": "Wraith : Phasmophobia",
+   "tier": "Event",
+   "chance": 6620000,
+   "onlyIn": "GRAVEYARD",
+   "note": "Halloween 2026"
+  },
+  "yolkegg": {
+   "display": "Yolkegg",
+   "tier": "Event",
+   "chance": 1790909090,
+   "note": "Easter 2026"
+  },
+  "yuyo": {
+   "display": "yuyo",
+   "tier": "Unobtainable",
+   "note": "[Dev-Exclusive]"
+  },
+  "zeus": {
+   "display": "Zeus",
+   "tier": "Mythic",
+   "chance": 4500000,
+   "nativeChance": 900000,
+   "nativeBiome": "HEAVEN"
+  },
+  "zilch": {
+   "display": "Zilch",
+   "tier": "Event",
+   "note": "Season VI"
+  }
+ }
+}

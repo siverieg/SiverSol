@@ -1,0 +1,36 @@
+# secrets: never commit
+Config/secrets.local.json
+*.secret.json
+
+# Roblox logs contain join tickets (username/user id); only sanitized fixtures are allowed
+*.log
+!Fixtures/*.log
+
+# build output
+build/
+DerivedData/
+.build/
+.swiftpm/
+*.xcodeproj/
+xcuserdata/
+*.xcuserstate
+
+# screenshots, clips, local runtime data
+artifacts/
+
+# macOS / iCloud noise
+.DS_Store
+*.icloud
+
+# maintainer-only notes (verification logs, machine changes, progress, personal scan terms)
+private/
+
+# local signing identity; the committed Config/Signing.xcconfig is ad-hoc
+*.local.xcconfig
+
+# old app copies kept by the maintainer; never commit app bundles
+Versions/
+*.app/
+
+# the final delivery folder
+Final/

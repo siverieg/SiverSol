@@ -1,0 +1,103 @@
+# XcodeGen spec. Regenerate with `make gen`; never hand-edit SiverSol.xcodeproj.
+name: SiverSol
+options:
+  deploymentTarget:
+    macOS: "14.0"
+  createIntermediateGroups: true
+  generateEmptyDirectories: true
+packages:
+  SiverKit:
+    path: Packages/SiverKit
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    MARKETING_VERSION: "1.0.0"
+    CURRENT_PROJECT_VERSION: "1"
+targets:
+  SiverSol:
+    type: application
+    platform: macOS
+    sources:
+      - path: App
+    dependencies:
+      - package: SiverKit
+        product: SiverCore
+      - package: SiverKit
+        product: SiverNotify
+      - package: SiverKit
+        product: SiverInput
+      - package: SiverKit
+        product: SiverVision
+      - package: SiverKit
+        product: SiverMacro
+      - package: SiverKit
+        product: SiverEngine
+      - package: SiverKit
+        product: SiverSky
+    info:
+      path: App/Info.plist
+      properties:
+        CFBundleDisplayName: SiverSol
+        CFBundleShortVersionString: "1.0.0"
+        CFBundleVersion: "1"
+        LSApplicationCategoryType: public.app-category.utilities
+        LSMinimumSystemVersion: "14.0"
+        NSHumanReadableCopyright: "Made by siverieg. Not affiliated with Roblox or Sol's RNG. Aura data: Sol's RNG Wiki (CC BY-SA)."
+        CFBundleURLTypes:
+          - CFBundleURLName: io.github.siverieg.siversol
+            CFBundleURLSchemes: [siversol]
+        # .svmacro files open in SiverSol (they are shown for review before anything is added).
+        CFBundleDocumentTypes:
+          - CFBundleTypeName: SiverSol Macro
+            CFBundleTypeRole: Viewer
+            LSHandlerRank: Owner
+            LSItemContentTypes: [io.github.siverieg.siversol.macro]
+        UTExportedTypeDeclarations:
+          - UTTypeIdentifier: io.github.siverieg.siversol.macro
+            UTTypeDescription: SiverSol Macro
+            UTTypeConformsTo: [public.json]
+            UTTypeTagSpecification:
+              public.filename-extension: [svmacro]
+    configFiles:
+      Debug: Config/Signing.xcconfig
+      Release: Config/Signing.xcconfig
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: io.github.siverieg.siversol
+        PRODUCT_NAME: SiverSol
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        # Signing identity and team come from Config/Signing.xcconfig (ad-hoc by default; see that file).
+        ENABLE_HARDENED_RUNTIME: YES
+        # No App Sandbox: the sandbox blocks CGEvent.post.
+        ENABLE_APP_SANDBOX: NO
+  # Tests that need the real views: every permission row has its "?" and every explainer has all five parts.
+  SiverSolTests:
+    type: bundle.unit-test
+    platform: macOS
+    sources:
+      - path: AppTests
+    dependencies:
+      - target: SiverSol
+      - package: SiverKit
+        product: SiverCore
+    configFiles:
+      Debug: Config/Signing.xcconfig
+      Release: Config/Signing.xcconfig
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: io.github.siverieg.siversol.tests
+        GENERATE_INFOPLIST_FILE: YES
+        TEST_HOST: "$(BUILT_PRODUCTS_DIR)/SiverSol.app/Contents/MacOS/SiverSol"
+        BUNDLE_LOADER: "$(TEST_HOST)"
+schemes:
+  SiverSol:
+    build:
+      targets:
+        SiverSol: all
+        SiverSolTests: [test]
+    run:
+      config: Debug
+    test:
+      config: Debug
+      targets:
+        - SiverSolTests
